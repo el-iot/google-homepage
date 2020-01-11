@@ -7,7 +7,7 @@ div, a, p {
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    min-height: 5%;
+    min-height: 4%;
 }
 
 .header a {
@@ -23,7 +23,7 @@ div, a, p {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    min-height: 5%;
+    min-height: 4%;
 }
 
 .footer a {
@@ -38,15 +38,20 @@ div, a, p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 90%;
+    min-height: 92%;
 }
 
 .search-box {
     width: 300px;
+    border-radius: 15px;
 }
 
 .special-button {
     padding: 5px;
     margin: 4px;
     background-color: lightgrey;
+}
+
+.image-container {
+    padding: 25px;
 }
